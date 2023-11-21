@@ -1,6 +1,6 @@
 const Decks = () => {
     return (
-        <h1>Decks</h1>
+        <h1 className="mt-10">Decks</h1>
     )
 }
 
