@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import { Home } from './pages/Home'
 import { Decks } from './pages/Decks'
 import { NotFound } from './pages/NotFound'
-import { NavBar } from './components/NavBar'
+import { Header } from './components/Header'
 import './App.css'
 
 function App() {
@@ -13,7 +13,9 @@ function App() {
   </Routes>
   
   return (
-    <NavBar />
+    <div>
+      <Header />
+    </div>
   )
 
 }
